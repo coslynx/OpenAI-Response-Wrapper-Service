@@ -1,0 +1,30 @@
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore package-lock.json
+package-lock.json
+
+# Ignore temporary files
+*.log
+*.tmp
+*.pid
+*.cache
+*.swp
+
+# Ignore venv directories
+/venv/
+/.venv/
+
+# Ignore test coverage reports
+coverage.xml
+coverage.json
+
+# Ignore editor-specific files
+.DS_Store
+*.idea/
+*.vscode/
+.editorconfig
+
+# Ignore specific environment files
+.env.example
